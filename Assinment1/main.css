@@ -1,0 +1,111 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  /* border: 1px solid black; */
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+.grid-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto auto auto 350px;
+  grid-template-rows: auto auto auto 80px;
+  grid-gap: 10px;
+  background-color: #202124;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: #3c4043;
+  text-align: center;
+  padding: 10px 5px;
+  font-size: 30px;
+  color: white;
+  border-radius: 10px;
+  /* height: 23vh; */
+}
+
+.grid-container > div.item4 {
+  grid-row-end: span 3;
+  background-color: white;
+  color: black;
+}
+.grid-container > div.item11 {
+  grid-column-end: span 4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 15px;
+  background-color: #202124;
+}
+.rightsection1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+.rightsection2 {
+  display: block;
+  flex-direction: column;
+  padding: 0;
+  align-items: center;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+
+p {
+  font-size: 17px;
+}
+header {
+  font-size: 20px;
+  font-weight: 600;
+}
+#button1 {
+  width: 120px;
+  height: 38px;
+  font-weight: bold;
+  color: teal;
+  background-color: rgba(213, 225, 247, 0.671);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+i.fa-microphone,
+i.fa-video,
+i.fa-hand-paper,
+i.fa-desktop,
+i.fa-ellipsis-v,
+i.fa-phone {
+  color: white;
+  border-radius: 50%;
+  background-color: #3c4043;
+  width: 45px;
+  height: 32px;
+  text-align: center;
+  padding-top: 11px;
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+}
+i.fa-microphone:hover,
+i.fa-video:hover,
+i.fa-hand-paper:hover,
+i.fa-desktop:hover,
+i.fa-ellipsis-v:hover,
+i.fa-phone:hover {
+  background-color: tomato;
+}
+.menubutton {
+  padding-right: 30px;
+  column-gap: 20px;
+}
+img {
+  border-radius: 50%;
+  outline: none;
+  border: none;
+}
+.ptext {
+  padding: 0 20px;
+  text-align: left;
+}
